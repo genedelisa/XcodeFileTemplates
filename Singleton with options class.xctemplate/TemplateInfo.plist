@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A GoF Singleton with options in Swift.</string>
+	<key>Summary</key>
+	<string>A GoF Singleton with options in Swift.</string>
+	<key>SortOrder</key>
+	<string>5</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>SingletonClassName</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+
+        <key>Options</key>
+        <array>
+            <dict>
+                <key>Description</key>
+                <string>The name of the Singleton class to create</string>
+                <key>Identifier</key>
+                <string>productName</string>
+                <key>Name</key>
+                <string>Singleton Class Name</string>
+                <key>NotPersisted</key>
+                <true/>
+                <key>Required</key>
+                <true/>
+                <key>Type</key>
+                <string>text</string>
+            </dict>
+            <dict>
+                <key>Identifier</key>
+                <string>singletonStyle</string>
+                <key>Name</key>
+                <string>Singleton Style</string>
+                <key>Description</key>
+                <string>The style of Singleton to create.</string>
+                <key>Type</key>
+                <string>popup</string>
+                <key>Default</key>
+                <string>GCD</string>
+                <key>Values</key>
+                <array>
+                    <string>GCD</string>
+                    <string>Traditional</string>
+                </array>
+            </dict>
+        </array>
+
+</dict>
+</plist>
