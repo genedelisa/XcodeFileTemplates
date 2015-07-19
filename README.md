@@ -1,4 +1,4 @@
-# Gene's Xcode File templates
+# Xcode File templates
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://en.wikipedia.org/wiki/MIT_License)
 [![GitHub tag](https://img.shields.io/github/tag/genedelisa/tablebinding.svg)](https://github.com/genedelisa/XcodeFileTemplates/)
@@ -11,7 +11,11 @@ the template placeholders so some things are already customized for you.
 
 Run the install.sh script or copy manually if you don't like being bashed.
 
-The script will install them to ~/Library/Developer/Xcode/Templates/File\ Templates/FolderNameYouSpecifyOnTheCommandLine
+The script will install them to ~/Library/Developer/Xcode/Templates/File\
+Templates/FolderNameYouSpecifyOnTheCommandLine or my name if you run the script
+with no arguments.
+
+These templates will be in a menu with that folder name you specify.
 
 ## Blog post for this example.
 
